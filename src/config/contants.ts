@@ -1,5 +1,12 @@
 import { DefaultTheme } from "react-native-paper";
 
+export const paperTheme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+  },
+};
+
 // eslint-disable-next-line import/prefer-default-export
 export const colors = {
   green: "#32B768",
@@ -21,11 +28,8 @@ export const colors = {
   red: "#E83F5B",
 };
 
-export const paperTheme = {
-  ...DefaultTheme,
-  colors: {
-    ...DefaultTheme.colors,
-    primary: "#fff",
-    accent: "yellow",
-  },
+export const fonts = {
+  heading: "Jost_600SemiBold",
+  text: "Jost_400Regular",
+  regular: "Jost_400Regular",
 };

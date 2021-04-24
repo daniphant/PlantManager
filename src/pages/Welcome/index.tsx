@@ -6,6 +6,7 @@ import {
   Header,
   FootNote,
   ContinueButton,
+  PaddingWrapper,
 } from "./styles";
 
 import welcomeImg from "../../assets/watering.png";
@@ -13,20 +14,25 @@ import welcomeImg from "../../assets/watering.png";
 function Welcome() {
   return (
     <Container>
-      <Header>
-        Gerencia{"\n"}suas plantas{"\n"}de forma fácil
-      </Header>
+      <PaddingWrapper>
+        <Header>
+          Gerencie{"\n"}suas plantas de{"\n"} forma fácil
+        </Header>
 
-      <WelcomeImg source={welcomeImg} />
+        <WelcomeImg resizeMode="contain" source={welcomeImg} />
 
-      <FootNote>
-        Não esqueca mais de regar suas plantas.{"\n"}Nós cuidamos de lembrar
-        você sempre que precisar.
-      </FootNote>
+        <FootNote>
+          Não esqueca mais de regar suas plantas.{"\n"}Nós cuidamos de lembrar
+          você sempre que precisar.
+        </FootNote>
 
-      <ContinueButton onPress={() => console.log("this")}>
-        Continuar
-      </ContinueButton>
+        <ContinueButton
+          theme={{ colors: { primary: "#fff" } }}
+          onPress={() => console.log("this")}
+        >
+          Continuar
+        </ContinueButton>
+      </PaddingWrapper>
     </Container>
   );
 }
