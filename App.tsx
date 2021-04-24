@@ -12,7 +12,7 @@ import {
 } from "@expo-google-fonts/jost";
 
 import { paperTheme } from "./src/config/contants";
-import Welcome from "./src/pages/Welcome";
+import Welcome from "./src/pages/SignUp";
 
 function App() {
   const [isFontsLoaded] = useFonts({

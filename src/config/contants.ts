@@ -4,6 +4,8 @@ export const paperTheme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
+    primary: "#32B768",
+    background: "#fff",
   },
 };
 
