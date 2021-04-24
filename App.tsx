@@ -11,8 +11,8 @@ import {
   Jost_600SemiBold,
 } from "@expo-google-fonts/jost";
 
-import { paperTheme } from "./src/config/contants";
-import Welcome from "./src/pages/SignUp";
+import { paperTheme } from "./src/config/constants";
+import Welcome from "./src/pages/AllGood";
 
 function App() {
   const [isFontsLoaded] = useFonts({

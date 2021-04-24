@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 
 import { Button, TextInput } from "react-native-paper";
 import { Dimensions } from "react-native";
-import { colors, fonts } from "../../config/contants";
+import { colors, fonts } from "../../config/constants";
 
 export const Container = styled.SafeAreaView`
   flex: 1;
