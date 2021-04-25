@@ -1,9 +1,7 @@
 import styled from "styled-components/native";
 import { colors, fonts } from "../../config/constants";
 
-export const Container = styled.View`
-  flex: 1;
-`;
+export const Container = styled.View``;
 
 export const Body = styled.View`
   padding: 0px 20px;
@@ -24,5 +22,10 @@ export const Subtitle = styled.Text`
 `;
 
 export const ButtonList = styled.FlatList`
-  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 `;
+
+export const PlantWrapper = styled.View``;
+
+export const PlantList = styled.FlatList``;
