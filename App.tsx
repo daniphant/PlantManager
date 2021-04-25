@@ -13,6 +13,7 @@ import { Provider as PaperProvider } from "react-native-paper";
 import { paperTheme } from "./src/config/constants";
 
 import Routes from "./src/routes";
+import Home from "./src/pages/Home";
 
 function App() {
   const [isFontsLoaded] = useFonts({
@@ -25,7 +26,8 @@ function App() {
   return (
     <PaperProvider theme={paperTheme}>
       <StatusBar style="auto" />
-      <Routes />
+      {/* <Routes /> */}
+      <Home />
     </PaperProvider>
   );
 }

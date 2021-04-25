@@ -12,6 +12,8 @@ import {
 } from "./styles";
 
 function AllGood() {
+  const handleConfirmButtonPress = () => {};
+
   return (
     <Container>
       <KAV>
