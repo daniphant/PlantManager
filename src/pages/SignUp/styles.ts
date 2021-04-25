@@ -33,7 +33,7 @@ export const Emoji = styled.Text`
 
 export const NameInput = styled(TextInput)`
   margin: 32px;
-  width: ${Dimensions.get("window").width * 0.8};
+  width: ${Dimensions.get("window").width * 0.8}px;
 `;
 
 export const ContinueButton = styled(Button)`

@@ -17,13 +17,15 @@ function AllGood() {
       <KAV>
         <PaddingWrapper>
           <Emoji>😁</Emoji>
+
           <TextWrapper>
-            <Header>Tudo certo! </Header>
+            <Header>Tudo certo!</Header>
             <Subtitle>
               Agora vamos te ajudar a cuidar da suas plantinhas com muito
               carinho
             </Subtitle>
           </TextWrapper>
+
           <ConfirmButton theme={{ colors: { primary: "#fff" } }}>
             Começar
           </ConfirmButton>

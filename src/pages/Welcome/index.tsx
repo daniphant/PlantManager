@@ -1,4 +1,7 @@
 import React from "react";
+import { useNavigation } from "@react-navigation/core";
+
+import welcomeImg from "../../assets/watering.png";
 
 import {
   Container,
@@ -9,9 +12,13 @@ import {
   PaddingWrapper,
 } from "./styles";
 
-import welcomeImg from "../../assets/watering.png";
-
 function Welcome() {
+  const navigation = useNavigation();
+
+  const handleContinueButtonPress = () => {
+    navigation.navigate("SignUp");
+  };
+
   return (
     <Container>
       <PaddingWrapper>
@@ -28,7 +35,7 @@ function Welcome() {
 
         <ContinueButton
           theme={{ colors: { primary: "#fff" } }}
-          onPress={() => console.log("this")}
+          onPress={handleContinueButtonPress}
         >
           Continuar
         </ContinueButton>

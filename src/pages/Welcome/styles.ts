@@ -26,7 +26,7 @@ export const Header = styled.Text`
 `;
 
 export const WelcomeImg = styled.Image`
-  height: ${Dimensions.get("window").width * 0.7};
+  height: ${Dimensions.get("window").width * 0.7}px;
 `;
 
 export const FootNote = styled.Text`
